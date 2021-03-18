@@ -432,8 +432,8 @@ class CursedMenu(object):
 
         stage_descriptions = {
                 0:[
-            "You're excited about your new seed.",
-            "You wonder what kind of plant your seed will grow into.",
+            "You're excited about your new boat.",
+            "You wonder what kind of plant your boat will grow into.",
             "You're ready for a new start with this plant.",
             "You're tired of waiting for your seed to grow.",
             "You wish your seed could tell you what it needs.",
@@ -575,15 +575,15 @@ class CursedMenu(object):
         # Draw instructions on screen
         self.clear_info_pane()
         if self.infotoggle != 4:
-            instructions_txt = ("welcome to botany. you've been given a seed\n"
-                                "that will grow into a beautiful plant. check\n"
-                                "in and water your plant every 24h to keep it\n"
-                                "growing. 5 days without water = death. your\n"
-                                "plant depends on you & your friends to live!\n"
+            instructions_txt = ("welcome to boatany. you've been given a boat\n"
+                                "that will grow into a beautiful ship. check\n"
+                                "in and water your boat every 24h to keep it\n"
+                                "alive. 5 days without supplies = death. your\n"
+                                "boat depends on you & your friends to live!\n"
                                 "more info is available in the readme :)\n"
-                                "https://github.com/jifunks/botany/blob/master/README.md\n"
+                                "https://github.com/gliggy/boatany/blob/master/README.md\n"
                                 "                               cheers,\n"
-                                "                               curio\n"
+                                "                               gligy\n"
                                 )
             self.draw_info_text(instructions_txt)
             self.infotoggle = 4
