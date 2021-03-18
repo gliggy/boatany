@@ -1,5 +1,5 @@
 # boatany
-![Screencap](https://tilde.town/~curiouser/botany.png)
+![Screencap](https://tilde.town/~gliggy/boatany/boatany2.png)
 
 botany by Jake Funke - jifunks@gmail.com - tilde.town/~curiouser - http://jakefunke.online/
 
