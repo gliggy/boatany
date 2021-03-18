@@ -583,7 +583,7 @@ class CursedMenu(object):
                                 "more info is available in the readme :)\n"
                                 "https://github.com/gliggy/boatany/blob/master/README.md\n"
                                 "                               cheers,\n"
-                                "                               gligy\n"
+                                "                               ~gliggy\n"
                                 )
             self.draw_info_text(instructions_txt)
             self.infotoggle = 4
