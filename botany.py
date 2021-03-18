@@ -16,7 +16,7 @@ from menu_screen import *
 # - Switch from personal data file to table in DB
 
 class Plant(object):
-    # This is your plant!
+    # This is your boat!
     stage_list = [
         'seed',
         'seedling',
