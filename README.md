@@ -3,9 +3,9 @@
 
 botany by Jake Funke - jifunks@gmail.com - tilde.town/~curiouser - http://jakefunke.online/
 
-boatany ~the remix~ by gliggy
+boatany - the remix- by gliggy
 
-A command line, realtime, community -plant- boat buddy.
+A command line, realtime, community ~plant~ boat buddy.
 
 ## getting started
 
