@@ -54,7 +54,7 @@ class CursedMenu(object):
         # Recusive lock to prevent both threads from drawing at the same time
         self.screen_lock = threading.RLock()
         self.screen.clear()
-        self.show(["water","look","garden","visit", "instructions"], title=' botany ', subtitle='options')
+        self.show(["trade","supplies","report", "instructions"], title=' boatany ', subtitle='options')
 
     def define_colors(self):
         # TODO: implement colors
@@ -177,7 +177,7 @@ class CursedMenu(object):
         elif datetime.date.today().month == 10 and datetime.date.today().day == 31:
             self.ascii_render('jackolantern.txt', ypos, xpos)
         elif this_plant.stage == 0:
-            self.ascii_render('seed.txt', ypos, xpos)
+            self.ascii_render('firstboat.txt', ypos, xpos)
         elif this_plant.stage == 1:
             self.ascii_render('seedling.txt', ypos, xpos)
         elif this_plant.stage == 2:
